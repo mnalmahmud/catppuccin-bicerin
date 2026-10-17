@@ -8,8 +8,6 @@ An unofficial, extra-dark [Catppuccin](https://catppuccin.com/)-inspired color p
 
 <img src="assets/palette.svg" alt="Bicerin palette showing fourteen pastel accents and twelve dark-to-light neutrals" width="100%">
 
-<sub>14 accents · 12 neutrals · 26 colors</sub>
-
 </div>
 
 ## Palette
@@ -65,13 +63,29 @@ a {
 <details>
 <summary>Whiskers</summary>
 
-Use the [color overrides](https://whiskers.catppuccin.com/concepts/overrides/) to render a Whiskers template with Bicerin's colors:
+Whiskers does not have a built-in `bicerin` flavor. Use Mocha as the base and apply [Bicerin's color overrides](whiskers-overrides.json):
 
 ```sh
-whiskers template.tera --flavor mocha --color-overrides "$(cat whiskers-overrides.json)"
+whiskers template.tera --flavor mocha --color-overrides whiskers-overrides.json
 ```
 
-Whiskers still identifies the selected flavor as `mocha`; only its colors are replaced.
+To name the generated file for Bicerin, set or change `whiskers.filename` in the template's frontmatter:
+
+```yaml
+---
+whiskers:
+  version: "^2.9.0"
+  filename: "themes/bicerin.conf"
+---
+```
+
+If the template has no `filename` setting, redirect its standard output instead:
+
+```sh
+whiskers template.tera --flavor mocha --color-overrides whiskers-overrides.json > bicerin.conf
+```
+
+The color overrides do not change Whiskers' internal flavor name. If the template writes `{{ flavor.name }}` or `{{ flavor.identifier }}` into the output, update those references to use `Bicerin` or `bicerin` as appropriate.
 
 </details>
 
