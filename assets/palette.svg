@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="225" viewBox="0 0 1200 225" role="img" aria-labelledby="title desc">
   <title id="title">Bicerin palette swatches</title>
-  <desc id="desc">Fourteen pastel accent colors followed by twelve neutral shades.</desc>
+  <desc id="desc">Accent colors followed by background and typography colors.</desc>
   <rect width="1200" height="225" rx="22" fill="#1a1826"/>
   <rect x="1" y="1" width="1198" height="223" rx="21" fill="none" stroke="#424353" stroke-width="2"/>
   <text x="55" y="39" fill="#bdc4db" font-size="15" font-weight="700" letter-spacing="2" font-family="Inter, Segoe UI, Arial, sans-serif">ACCENTS</text>
@@ -18,7 +18,7 @@
   <rect x="915.36" y="53" width="73.21" height="52" rx="7" fill="#6acaf4" stroke="#56586b" stroke-opacity="0.55" stroke-width="1"><title>sapphire · #6acaf4</title></rect>
   <rect x="993.57" y="53" width="73.21" height="52" rx="7" fill="#88baff" stroke="#56586b" stroke-opacity="0.55" stroke-width="1"><title>blue · #88baff</title></rect>
   <rect x="1071.79" y="53" width="73.21" height="52" rx="7" fill="#b3bfff" stroke="#56586b" stroke-opacity="0.55" stroke-width="1"><title>lavender · #b3bfff</title></rect>
-  <text x="55" y="142" fill="#bdc4db" font-size="15" font-weight="700" letter-spacing="2" font-family="Inter, Segoe UI, Arial, sans-serif">NEUTRALS</text>
+  <text x="55" y="142" fill="#bdc4db" font-size="15" font-weight="700" letter-spacing="2" font-family="Inter, Segoe UI, Arial, sans-serif">BACKGROUND COLORS &amp; TYPOGRAPHY</text>
   <rect x="55.00" y="156" width="86.25" height="46" rx="7" fill="#0c0c14" stroke="#56586b" stroke-opacity="0.55" stroke-width="1"><title>crust · #0c0c14</title></rect>
   <rect x="146.25" y="156" width="86.25" height="46" rx="7" fill="#14121d" stroke="#56586b" stroke-opacity="0.55" stroke-width="1"><title>mantle · #14121d</title></rect>
   <rect x="237.50" y="156" width="86.25" height="46" rx="7" fill="#1a1826" stroke="#56586b" stroke-opacity="0.55" stroke-width="1"><title>base · #1a1826</title></rect>

@@ -6,7 +6,7 @@
 
 An unofficial, extra-dark [Catppuccin](https://catppuccin.com/)-inspired color palette.
 
-<img src="assets/palette.svg" alt="Bicerin palette showing fourteen pastel accents and twelve dark-to-light neutrals" width="100%">
+<img src="assets/palette.svg" alt="Bicerin palette showing accents, background colors, and typography colors" width="100%">
 
 </div>
 
@@ -24,16 +24,23 @@ An unofficial, extra-dark [Catppuccin](https://catppuccin.com/)-inspired color p
 | Maroon | `#e8a7b8` | Blue | `#88baff` |
 | Peach | `#ffbd8f` | Lavender | `#b3bfff` |
 
-### Neutrals
+### Background Colors
 
 | Color | Hex | Color | Hex |
 | :-- | :-- | :-- | :-- |
-| Crust | `#0c0c14` | Overlay 0 | `#6b6e82` |
-| Mantle | `#14121d` | Overlay 1 | `#7e8297` |
-| Base | `#1a1826` | Overlay 2 | `#9398ad` |
-| Surface 0 | `#2d2d3d` | Subtext 0 | `#a7adc5` |
-| Surface 1 | `#424353` | Subtext 1 | `#bdc4db` |
-| Surface 2 | `#56586b` | Text | `#d0d9f3` |
+| Crust | `#0c0c14` | Mantle | `#14121d` |
+| Base | `#1a1826` | Surface 0 | `#2d2d3d` |
+| Surface 1 | `#424353` | Surface 2 | `#56586b` |
+| Overlay 0 | `#6b6e82` | Overlay 1 | `#7e8297` |
+| Overlay 2 | `#9398ad` | | |
+
+### Typography
+
+| Color | Hex |
+| :-- | :-- |
+| Text | `#d0d9f3` |
+| Subtext 1 | `#bdc4db` |
+| Subtext 0 | `#a7adc5` |
 
 ## Files
 
@@ -63,28 +70,14 @@ a {
 <details>
 <summary>Whiskers</summary>
 
-Whiskers does not have a built-in `bicerin` flavor. Use Mocha as the base and apply [Bicerin's color overrides](whiskers-overrides.json):
+Render a [Whiskers](https://whiskers.catppuccin.com/concepts/overrides/) template with Bicerin colors and flavor names:
 
 ```sh
-whiskers template.tera --flavor mocha --color-overrides whiskers-overrides.json
+sed -E \
+  -e 's/\{\{[[:space:]]*flavor\.identifier[[:space:]]*\}\}/bicerin/g' \
+  -e 's/\{\{[[:space:]]*flavor\.name[[:space:]]*\}\}/Bicerin/g' \
+  template.tera | whiskers - -f mocha --color-overrides whiskers-overrides.json
 ```
-
-To name the generated file for Bicerin, set or change `whiskers.filename` in the template's frontmatter:
-
-```yaml
----
-whiskers:
-  filename: "themes/bicerin.conf"
----
-```
-
-For a single-output template that prints to standard output (rather than writing files itself), redirect the output instead:
-
-```sh
-whiskers template.tera --flavor mocha --color-overrides whiskers-overrides.json > bicerin.conf
-```
-
-The color overrides do not change Whiskers' internal flavor name. If the template writes `{{ flavor.name }}` or `{{ flavor.identifier }}` into the output, edit the template to display `Bicerin` or `bicerin` where needed. Multi-output templates may also need their matrix or filename pattern adjusted.
 
 </details>
 
