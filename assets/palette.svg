@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="470" viewBox="0 0 1440 470" role="img" aria-labelledby="title desc">
+<title id="title">Bicerin — 26-color palette</title>
+<desc id="desc">Fourteen accent colors and twelve neutral interface colors, with each swatch labeled.</desc>
+<rect width="1440" height="470" rx="24" fill="#0c0c14"/>
+<rect x="1" y="1" width="1438" height="468" rx="23" fill="none" stroke="#424353" stroke-width="2"/>
+<text x="60" y="90" font-size="60" font-weight="700" letter-spacing="-2" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#d0d9f3">Bicerin</text>
+<text x="62" y="127" font-size="21" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#a7adc5">bee-cheh-REEN</text>
+<text x="1380" y="79" font-size="15" text-anchor="end" letter-spacing="2" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#9398ad">26 COLORS · UNOFFICIAL</text>
+<line x1="60" x2="1380" y1="150" y2="150" stroke="#424353" stroke-width="1"/>
+<text x="60" y="182" font-size="15" font-weight="700" letter-spacing="1.6" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">ACCENTS</text>
+<rect x="60.00" y="195" width="85.93" height="53" rx="8" fill="#f6e4e1" stroke="#56586b" stroke-opacity="0.7" stroke-width="1"/>
+<text x="102.96" y="266" text-anchor="middle" font-size="12" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">rosewater</text>
+<rect x="154.93" y="195" width="85.93" height="53" rx="8" fill="#f4d3d3" stroke="#56586b" stroke-opacity="0.7" stroke-width="1"/>
+<text x="197.89" y="266" text-anchor="middle" font-size="12" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">flamingo</text>
+<rect x="249.86" y="195" width="85.93" height="53" rx="8" fill="#f5c7e8" stroke="#56586b" stroke-opacity="0.7" stroke-width="1"/>
+<text x="292.82" y="266" text-anchor="middle" font-size="12" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">pink</text>
+<rect x="344.79" y="195" width="85.93" height="53" rx="8" fill="#cfaaf7" stroke="#56586b" stroke-opacity="0.7" stroke-width="1"/>
+<text x="387.75" y="266" text-anchor="middle" font-size="12" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">mauve</text>
+<rect x="439.71" y="195" width="85.93" height="53" rx="8" fill="#f98fba" stroke="#56586b" stroke-opacity="0.7" stroke-width="1"/>
+<text x="482.68" y="266" text-anchor="middle" font-size="12" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">red</text>
+<rect x="534.64" y="195" width="85.93" height="53" rx="8" fill="#e8a7b8" stroke="#56586b" stroke-opacity="0.7" stroke-width="1"/>
+<text x="577.61" y="266" text-anchor="middle" font-size="12" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">maroon</text>
+<rect x="629.57" y="195" width="85.93" height="53" rx="8" fill="#ffbd8f" stroke="#56586b" stroke-opacity="0.7" stroke-width="1"/>
+<text x="672.54" y="266" text-anchor="middle" font-size="12" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">peach</text>
+<rect x="724.50" y="195" width="85.93" height="53" rx="8" fill="#ffedbe" stroke="#56586b" stroke-opacity="0.7" stroke-width="1"/>
+<text x="767.46" y="266" text-anchor="middle" font-size="12" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">yellow</text>
+<rect x="819.43" y="195" width="85.93" height="53" rx="8" fill="#a6ecad" stroke="#56586b" stroke-opacity="0.7" stroke-width="1"/>
+<text x="862.39" y="266" text-anchor="middle" font-size="12" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">green</text>
+<rect x="914.36" y="195" width="85.93" height="53" rx="8" fill="#9defe0" stroke="#56586b" stroke-opacity="0.7" stroke-width="1"/>
+<text x="957.32" y="266" text-anchor="middle" font-size="12" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">teal</text>
+<rect x="1009.29" y="195" width="85.93" height="53" rx="8" fill="#81e0f2" stroke="#56586b" stroke-opacity="0.7" stroke-width="1"/>
+<text x="1052.25" y="266" text-anchor="middle" font-size="12" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">sky</text>
+<rect x="1104.21" y="195" width="85.93" height="53" rx="8" fill="#6acaf4" stroke="#56586b" stroke-opacity="0.7" stroke-width="1"/>
+<text x="1147.18" y="266" text-anchor="middle" font-size="12" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">sapphire</text>
+<rect x="1199.14" y="195" width="85.93" height="53" rx="8" fill="#88baff" stroke="#56586b" stroke-opacity="0.7" stroke-width="1"/>
+<text x="1242.11" y="266" text-anchor="middle" font-size="12" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">blue</text>
+<rect x="1294.07" y="195" width="85.93" height="53" rx="8" fill="#b3bfff" stroke="#56586b" stroke-opacity="0.7" stroke-width="1"/>
+<text x="1337.04" y="266" text-anchor="middle" font-size="12" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">lavender</text>
+<text x="60" y="329" font-size="15" font-weight="700" letter-spacing="1.6" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">NEUTRALS</text>
+<rect x="60.00" y="342" width="101.75" height="53" rx="8" fill="#0c0c14" stroke="#56586b" stroke-opacity="0.7" stroke-width="1"/>
+<text x="110.88" y="413" text-anchor="middle" font-size="13" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">crust</text>
+<rect x="170.75" y="342" width="101.75" height="53" rx="8" fill="#14121d" stroke="#56586b" stroke-opacity="0.7" stroke-width="1"/>
+<text x="221.62" y="413" text-anchor="middle" font-size="13" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">mantle</text>
+<rect x="281.50" y="342" width="101.75" height="53" rx="8" fill="#1a1826" stroke="#56586b" stroke-opacity="0.7" stroke-width="1"/>
+<text x="332.38" y="413" text-anchor="middle" font-size="13" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">base</text>
+<rect x="392.25" y="342" width="101.75" height="53" rx="8" fill="#2d2d3d" stroke="#56586b" stroke-opacity="0.7" stroke-width="1"/>
+<text x="443.12" y="413" text-anchor="middle" font-size="13" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">surface0</text>
+<rect x="503.00" y="342" width="101.75" height="53" rx="8" fill="#424353" stroke="#56586b" stroke-opacity="0.7" stroke-width="1"/>
+<text x="553.88" y="413" text-anchor="middle" font-size="13" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">surface1</text>
+<rect x="613.75" y="342" width="101.75" height="53" rx="8" fill="#56586b" stroke="#56586b" stroke-opacity="0.7" stroke-width="1"/>
+<text x="664.62" y="413" text-anchor="middle" font-size="13" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">surface2</text>
+<rect x="724.50" y="342" width="101.75" height="53" rx="8" fill="#6b6e82" stroke="#56586b" stroke-opacity="0.7" stroke-width="1"/>
+<text x="775.38" y="413" text-anchor="middle" font-size="13" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">overlay0</text>
+<rect x="835.25" y="342" width="101.75" height="53" rx="8" fill="#7e8297" stroke="#56586b" stroke-opacity="0.7" stroke-width="1"/>
+<text x="886.12" y="413" text-anchor="middle" font-size="13" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">overlay1</text>
+<rect x="946.00" y="342" width="101.75" height="53" rx="8" fill="#9398ad" stroke="#56586b" stroke-opacity="0.7" stroke-width="1"/>
+<text x="996.88" y="413" text-anchor="middle" font-size="13" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">overlay2</text>
+<rect x="1056.75" y="342" width="101.75" height="53" rx="8" fill="#a7adc5" stroke="#56586b" stroke-opacity="0.7" stroke-width="1"/>
+<text x="1107.62" y="413" text-anchor="middle" font-size="13" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">subtext0</text>
+<rect x="1167.50" y="342" width="101.75" height="53" rx="8" fill="#bdc4db" stroke="#56586b" stroke-opacity="0.7" stroke-width="1"/>
+<text x="1218.38" y="413" text-anchor="middle" font-size="13" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">subtext1</text>
+<rect x="1278.25" y="342" width="101.75" height="53" rx="8" fill="#d0d9f3" stroke="#56586b" stroke-opacity="0.7" stroke-width="1"/>
+<text x="1329.12" y="413" text-anchor="middle" font-size="13" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#bdc4db">text</text>
+</svg>

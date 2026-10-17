@@ -1,0 +1,30 @@
+{
+  "mocha": {
+    "rosewater": "f6e4e1",
+    "flamingo": "f4d3d3",
+    "pink": "f5c7e8",
+    "mauve": "cfaaf7",
+    "red": "f98fba",
+    "maroon": "e8a7b8",
+    "peach": "ffbd8f",
+    "yellow": "ffedbe",
+    "green": "a6ecad",
+    "teal": "9defe0",
+    "sky": "81e0f2",
+    "sapphire": "6acaf4",
+    "blue": "88baff",
+    "lavender": "b3bfff",
+    "crust": "0c0c14",
+    "mantle": "14121d",
+    "base": "1a1826",
+    "surface0": "2d2d3d",
+    "surface1": "424353",
+    "surface2": "56586b",
+    "overlay0": "6b6e82",
+    "overlay1": "7e8297",
+    "overlay2": "9398ad",
+    "subtext0": "a7adc5",
+    "subtext1": "bdc4db",
+    "text": "d0d9f3"
+  }
+}
