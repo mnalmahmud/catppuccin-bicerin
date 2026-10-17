@@ -74,18 +74,17 @@ To name the generated file for Bicerin, set or change `whiskers.filename` in the
 ```yaml
 ---
 whiskers:
-  version: "^2.9.0"
   filename: "themes/bicerin.conf"
 ---
 ```
 
-If the template has no `filename` setting, redirect its standard output instead:
+For a single-output template that prints to standard output (rather than writing files itself), redirect the output instead:
 
 ```sh
 whiskers template.tera --flavor mocha --color-overrides whiskers-overrides.json > bicerin.conf
 ```
 
-The color overrides do not change Whiskers' internal flavor name. If the template writes `{{ flavor.name }}` or `{{ flavor.identifier }}` into the output, update those references to use `Bicerin` or `bicerin` as appropriate.
+The color overrides do not change Whiskers' internal flavor name. If the template writes `{{ flavor.name }}` or `{{ flavor.identifier }}` into the output, edit the template to display `Bicerin` or `bicerin` where needed. Multi-output templates may also need their matrix or filename pattern adjusted.
 
 </details>
 
